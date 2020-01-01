@@ -4,9 +4,14 @@ def new_hash
 end
 
 def my_hash 
+<<<<<<< HEAD
   my_hash = {
    game: "The Witcher 3"
 }
+=======
+  my_hash = Hash.new  
+  game: "The Witcher 3"
+>>>>>>> 53d0d333cf9f444ec1615f68adf9584d7113ad8a
 my_hash
   # return a valid hash with any key/value pair of your choice
 end
